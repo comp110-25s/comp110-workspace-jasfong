@@ -60,7 +60,7 @@ def test_fav_color_2() -> None:
 
 
 def test_bin_len_edge() -> None:
-    assert bin_len({"", "", ""}) == {0: {""}}
+    assert bin_len(["", "", ""]) == {0: {""}}
 
 
 def test_bin_1() -> None:
